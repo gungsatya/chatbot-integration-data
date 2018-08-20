@@ -1,7 +1,7 @@
 # chatbot-integration-data
 Chatbot pertukaran data dengan aplikasi Group Me
 
-*** File  Bot2User.py
+### File  Bot2User.py
 
 1. 	Fungsi getLastIdMessageIn
 	Fungsi yang digunakan untuk mengambil id message yang masuk dan di simpan di tabel msg_in. Ini biar program engga ngambil message yang sudah diambil sebelumnya dan tidak memberatkan database.
@@ -22,7 +22,7 @@ Chatbot pertukaran data dengan aplikasi Group Me
 	Fungsi yang berguna untuk menerima pesan, mengatur hasil balasan yang diperlukan sesuai dengan pesan yang dikirim pengguna.
 
 
-*** File Bot2Bot.py
+### File Bot2Bot.py
 
 File ini jadi akan menjadi library di Bot2bot_in.py Bot2bot_out.py. Kenapa dipisah ? ini supaya kerja dari masing-masing fungsi berjalan optimal. karena kerja dari menerima, dan mengirim pesan sangat berat.
 
@@ -56,7 +56,7 @@ File ini jadi akan menjadi library di Bot2bot_in.py Bot2bot_out.py. Kenapa dipis
 10.	Fungsi receiveMessages (Fungsi paling penting)
 	Fungsi yang berguna untuk menerima pesan, mengatur hasil balasan yang diperlukan sesuai dengan pesan yang dikirim pengguna.
 
-*** File ClientListenner.py
+### File ClientListenner.py
 
 Fungsinya cuma satu, cuma untuk menerima masukan dari client PHP dan mengirim datanya ke tabel trx yang ada di MySQL
 
